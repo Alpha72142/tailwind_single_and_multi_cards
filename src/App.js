@@ -6,12 +6,10 @@ import ProductModal from "./Component/product_modal/ProductModal";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App overflow-hidden">
       <EmailSubscribeCard/>
       <PricingGrid/>
       <ProductModal/>
-    
-
     </div>
   );
 }
